@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: ;
+  font-style: normal;
+}
+
+
+body 
+{
+    @apply m-0 p-0 bg-slate-500;
+}
+/* Landing.css */
+.bg-image {
+    background-image: url('./Semi-Truck-Fact-scaled.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.font-orbitron {
+    font-family: 'Orbitron', sans-serif;
+}
